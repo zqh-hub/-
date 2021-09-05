@@ -1,0 +1,30 @@
+2021-08-29 21:42:59,854 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2021-08-29 21:42:59,868 INFO o.a.j.JMeter: Loading user properties from: /usr/local/jmeter/bin/user.properties
+2021-08-29 21:42:59,868 INFO o.a.j.JMeter: Loading system properties from: /usr/local/jmeter/bin/system.properties
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: Version 5.4.1
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: java.version=1.8.0_302
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: os.arch=aarch64
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: os.version=11.5.2
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: java.awt.headless=null
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: Max memory     =1908932608
+2021-08-29 21:42:59,873 INFO o.a.j.JMeter: Available Processors =8
+2021-08-29 21:42:59,877 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2021-08-29 21:42:59,878 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2021-08-29 21:42:59,878 INFO o.a.j.JMeter: JMeterHome=/usr/local/jmeter
+2021-08-29 21:42:59,878 INFO o.a.j.JMeter: user.dir  =/Users/coco/Documents/performance/script
+2021-08-29 21:42:59,878 INFO o.a.j.JMeter: PWD       =/Users/coco/Documents/performance/script
+2021-08-29 21:42:59,892 INFO o.a.j.JMeter: IP: 192.168.0.100 Name: 192.168.0.100 FullName: 192.168.0.100
+2021-08-29 21:43:00,090 INFO o.a.j.JMeter: Setting LAF to: laf:com.apple.laf.AquaLookAndFeel
+2021-08-29 21:43:00,894 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-08-29 21:43:31,325 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-08-29 21:43:31,344 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-08-29 21:43:31,344 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-08-29 21:43:31,348 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-08-29 21:43:31,348 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-08-29 21:43:31,348 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-08-29 21:43:31,348 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-08-29 21:43:31,349 INFO o.a.j.s.SampleEvent: List of sample_variables: []
