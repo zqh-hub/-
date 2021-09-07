@@ -167,8 +167,6 @@ source /etc/profile
 ```shell
 vim /etc/profile
 # jmeter
-# jmeter
-# jmeter
 export JMETER_HOME=/usr/local/jmeter5.4
 export CLASSPATH=$JMETER_HOME/lib/ext/ApacheJMeter_core.jar:$JMETER_HOME/lib/jorphan.jar:$CLASSPATH
 export PATH=$PATH:$JMETER_HOME/bin
@@ -273,3 +271,44 @@ vim /etc/hosts
 第6步不修改也可以，执行jmeter -n -t xxx.jmx -l result.jtl -R 远程ip
 如果中途要停止，执行shoutdown.sh
 ```
+
+##### Jmeter参数配置
+
+```
+1、控制台取样间隔的设置
+vim jmeter.properties
+summariser.interval = 10
+
+2、JVM参数优化
+bin目录下，vim jmeter修改HEAP的size大小，默认为1024M,可以设置为2048M
+HEAP="-Xms2g -Xmx2g -XX:MaxMetaspaceSize=256m"
+
+3、默认编码修改
+sampleresult.default.encoding=UTF-8
+```
+
+##### 性能测试的目的
+
+```
+1、测试系统最大处理能力：寻找最大的TPS
+2、测试系统支持的最高并发:
+	寻找系统最高能支持多少并发，当系统出现宕机、进程崩溃、报错率上升、响应时间超过可忍受范围、程序无响应等情况，即可认为系统达到了可支持的最高并发
+```
+
+##### 性能测试的场景
+
+```
+三个基本压测场景
+	1、先进行单接口测试
+	2、再按照一定的并发比例，进行多接口混合测试
+	3、最后按照混合场景比例，进行长时间稳定测试
+其他压测场景
+	根据自己的业务情况，选择不同业务场景压测
+```
+
+##### 加压策略
+
+```
+从小并发开始，逐步增加并发，
+```
+
